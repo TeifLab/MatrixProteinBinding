@@ -2,7 +2,7 @@
 Uses the transfer matrix method to compute protein binding at single base pair resolution including competition from nucleosomes and DNA methylation if provided.
 
 ## Inputs required
-Code requires sequences in FASTA format, one per file, with the header:
+- Code requires sequences in FASTA format, one per file, with the header:
 ````
 >chrN:start-end
 <sequence>
@@ -12,7 +12,7 @@ Code requires sequences in FASTA format, one per file, with the header:
 
 
 ## Outputs
-A fixed-width format file given the binding probability for each protein: if DNA methylation and/or occupancy are provided then binding probabilities for all combinations of methylation and nucleosome occupancy are calculated too.
+A fixed-width format file given the binding probability for each protein per nucleotide along the sequence: if DNA methylation and/or occupancy are provided then binding probabilities for all combinations of methylation and nucleosome occupancy are calculated too.
 
 ## Notes
 Based on a FORTRAN code, using sections of ChromHL, for the assembly of the transfer matrix, and TFaffinity, for the calculation of the TRAP-derived binding affinity used as input.
