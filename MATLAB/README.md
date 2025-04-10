@@ -16,6 +16,3 @@ A fixed-width format file given the binding probability for each protein per nuc
 
 ## Notes
 Based on a FORTRAN code, using sections of ChromHL, for the assembly of the transfer matrix, and TFaffinity, for the calculation of the TRAP-derived binding affinity used as input.
-
-## Subdirectories
-- ```MATLAB/``` contains the original MATLAB version by [https://www.github.com/geejaytee](geejayee).
