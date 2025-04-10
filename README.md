@@ -14,9 +14,5 @@ Uses the transfer matrix method to compute protein binding at single base pair r
 ## Outputs
 A fixed-width format file given the binding probability for each protein per nucleotide along the sequence: if DNA methylation and/or occupancy are provided then binding probabilities for all combinations of methylation and nucleosome occupancy are calculated too.
 
-## Subdirectories
-- Inside the ```MATLAB``` directory is the original MATLAB version of the code by [geejaytee](https://www.github.com/geejaytee)
-- (to add) Inside the ```python``` directory is the python version of the code ...
-
 ## Notes
 Based on a FORTRAN code, using sections of ChromHL, for the assembly of the transfer matrix, and TFaffinity, for the calculation of the TRAP-derived binding affinity used as input.
