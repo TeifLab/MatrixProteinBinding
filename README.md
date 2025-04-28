@@ -1,4 +1,4 @@
-# MatrixProteinBinding
+# MatrixProteinBinding (part of ChromHL)
 Uses the transfer matrix method to compute protein (e.g. transcription factor, TF) binding to DNA at single base pair resolution considering the competition of TF binding with nucleosomes and the effect of DNA methylation (optional). This is part of the ChromHL software ([https://github.com/TeifLab/ChromHL](ChromHL)) and the same license restrictions apply. The assembly of the transfer matrices is based on the ChromHL code ([https://github.com/TeifLab/ChromHL](ChromHL)), which originates from the Fortran code by [https://github.com/epigenereg](epigenereg) translated to MATLAB by [https://www.github.com/geejaytee](geejayee). The assignment of transcription factor affinity is based on the TFaffinity ([https://github.com/TeifLab/TFaffinity](TFaffinity)) code by [https://www.github.com/geejaytee](geejayee) which is using the TRAP algorithm (Martin Vingron's lab, https://trap.molgen.mpg.de/cgi-bin/trap_form.cgi).
 
 ## License
